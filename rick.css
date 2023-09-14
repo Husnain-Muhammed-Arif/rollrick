@@ -61,6 +61,7 @@ h1{
       }
  header a{
     color: aliceblue;
+    text-decoration: none;
 
  }  
  header a:hover{
@@ -101,3 +102,37 @@ span.copy{
     color: white;
     
 }
+.music{
+    animation: pulse  3s infinite;}
+
+@keyframes pulse {
+    0%{
+        font-variation-settings: 'wght' 100;
+    }
+    50%{
+        font-variation-settings: 'wght' 700; 
+        }
+        100%{
+            font-variation-settings: 'wght' 100;
+        }
+    }
+    .music2{
+        animation: pulse  3s infinite;}
+    
+    @keyframes pulse {
+        0%{
+            font-variation-settings: 'wght' 100;
+        }
+        50%{
+            font-variation-settings: 'wght' 700; 
+            }
+            100%{
+                font-variation-settings: 'wght' 100;
+            }
+        }
+        .music, .music2 {
+            display: inline-block;
+            vertical-align: middle;
+            font-size: 24px; /* Adjust the size as needed */
+            color: #7b1fa2;
+        }
