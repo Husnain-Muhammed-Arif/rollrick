@@ -1,138 +1,138 @@
 /* Style for the audio player container */
 audio {
-    width: 100%;
-    max-width: 400px;
-    margin: 0 auto;
-    display: block;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  display: block;
 }
 
 /* Style for the audio controls */
 audio::-webkit-media-controls {
-    background-color: thistle;
-    border: 5px solid #815198;
-    border-radius: 25px;
+  background-color: thistle;
+  border: 5px solid #815198;
+  border-radius: 25px;
 }
 
 /* Style for the play button */
 audio::-webkit-media-controls-play-button {
-    background-color: #815198;
-    color: thistle;
-    border-radius: 50%;
+  background-color: #815198;
+  color: thistle;
+  border-radius: 50%;
 }
 
 /* Style for the volume slider */
 audio::-webkit-media-controls-volume-slider {
-    background-color: #007BFF;
+  background-color: #007bff;
 }
 
 @keyframes pulsate {
-    0%, 100% {
-      background: linear-gradient(to bottom, #b07cc3, #794a91);
-      transform: scale(1);
-    }
-    50% {
-      background: linear-gradient(to bottom, #7b1fa2, #8e24aa);
-      transform: scale(1.1);
-    }
-  }  
-body{
-    background: linear-gradient(to bottom,#A19EBD, #A19EBD);
-    overflow-x: hidden;
-    margin: 0;
+  0%,
+  100% {
+    background: linear-gradient(to bottom, #b07cc3, #794a91);
+    transform: scale(1);
+  }
+  50% {
+    background: linear-gradient(to bottom, #7b1fa2, #8e24aa);
+    transform: scale(1.1);
+  }
+}
+body {
+  background: linear-gradient(to bottom, #a19ebd, #a19ebd);
+  overflow-x: hidden;
+  margin: 0;
 }
 
-h1{
-    margin:0;
-    padding: 0px;
-    font-size: 72px;
-    color: white;
-    text-align: center;
-    font-family: fantasy;
-    animation: pulsate 1s infinite ;
-} 
+h1 {
+  margin: 0;
+  padding: 0px;
+  font-size: 72px;
+  color: white;
+  text-align: center;
+  font-family: fantasy;
+  animation: pulsate 1s infinite;
+}
 
- header {
-      
-        background: linear-gradient(to bottom, #b07cc3, #794a91);
-        text-align: center;
-        font-size: 25px;
-        animation:10s;
-        color: white;
-      }
- header a{
-    color: aliceblue;
-    text-decoration: none;
-
- }  
- header a:hover{
-    color: #7b1fa2;
- }   
+header {
+  background: linear-gradient(to bottom, #b07cc3, #794a91);
+  text-align: center;
+  font-size: 25px;
+  animation: 10s;
+  color: white;
+}
+header a {
+  color: aliceblue;
+  text-decoration: none;
+}
+header a:hover {
+  color: #7b1fa2;
+}
 header img {
-    border-radius: 30px;
-    border: 10px solid #A19EBD;
-    width: 800px;
+  border-radius: 30px;
+  border: 10px solid #a19ebd;
+  width: 800px;
 }
-main{
-    color: rgb(255, 255, 255);
-    max-width: 800px;
-    margin: 0 auto;
-    font-size: 25px;
-    text-align: center;
-    padding: 0px;
+main {
+  color: rgb(255, 255, 255);
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 25px;
+  text-align: center;
+  padding: 0px;
 }
-main img{
-    border-radius: 30px;
-    border: 10px solid #9967AE ;
-    width: 800px;
+main img {
+  border-radius: 30px;
+  border: 10px solid #9967ae;
+  width: 800px;
 }
-span.gotta{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
-    font-size: 32px;
-    font-weight: bold;
+span.gotta {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 32px;
+  font-weight: bold;
 }
-footer{
-    background-color:#815198;
-    padding: 6px;
-    text-align: center;
-   
+footer {
+  background-color: #815198;
+  padding: 6px;
+  text-align: center;
 }
-span.copy{
-    font-size: 12px;
-    margin: 0;
-    color: white;
-    
+span.copy {
+  font-size: 12px;
+  margin: 0;
+  color: white;
 }
-.music{
-    animation: pulse  3s infinite;}
+.music {
+  animation: pulse 3s infinite;
+}
 
 @keyframes pulse {
-    0%{
-        font-variation-settings: 'wght' 100;
-    }
-    50%{
-        font-variation-settings: 'wght' 700; 
-        }
-        100%{
-            font-variation-settings: 'wght' 100;
-        }
-    }
-    .music2{
-        animation: pulse  3s infinite;}
-    
-    @keyframes pulse {
-        0%{
-            font-variation-settings: 'wght' 100;
-        }
-        50%{
-            font-variation-settings: 'wght' 700; 
-            }
-            100%{
-                font-variation-settings: 'wght' 100;
-            }
-        }
-        .music, .music2 {
-            display: inline-block;
-            vertical-align: middle;
-            font-size: 24px; /* Adjust the size as needed */
-            color: #7b1fa2;
-        }
+  0% {
+    font-variation-settings: "wght" 100;
+  }
+  50% {
+    font-variation-settings: "wght" 700;
+  }
+  100% {
+    font-variation-settings: "wght" 100;
+  }
+}
+.music2 {
+  animation: pulse 3s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    font-variation-settings: "wght" 100;
+  }
+  50% {
+    font-variation-settings: "wght" 700;
+  }
+  100% {
+    font-variation-settings: "wght" 100;
+  }
+}
+.music,
+.music2 {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 24px; /* Adjust the size as needed */
+  color: #7b1fa2;
+}
